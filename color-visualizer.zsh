@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-# author: https://github.com/mikelsr
 # Visualizes all default 255 colors on terminal, or specific ones if
 # passed as parameters.
 
