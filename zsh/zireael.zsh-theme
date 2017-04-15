@@ -1,3 +1,6 @@
+# -*- mode: zsh -*-
+# vi: set ft=zsh :
+
 # Custom version of af-magic
 # af-magic repo: https://github.com/andyfleming/oh-my-zsh
 # af-magic direct link: https://github.com/andyfleming/oh-my-zsh/blob/master/themes/af-magic.zsh-theme
@@ -18,4 +21,3 @@ ZSH_THEME_GIT_PROMPT_PREFIX="$FG[072]("
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_GIT_PROMPT_DIRTY="$FG[073]*%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="$FG[072])%{$reset_color%}"
-
