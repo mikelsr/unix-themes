@@ -8,9 +8,14 @@
 # the following function is only required to adjust the command separator
 # width after each command in case the terminal was resized (done at ***)
 set_primary_prompt () {
+    if [ "x$VIRTUAL_ENV" = "x" ]; then
+        PVENV=""
+    else
+        PVENV="(${VIRTUAL_ENV##*/})"
+    fi
     # primary prompt
     PROMPT="$FG[237]"$( printf "-%.0s" {1..$( tput cols )} )%{$reset_color%}"
-$FG[068]%n@%m: %B%c/%b\
+$FG[072]"$PVENV"$FG[068]%n@%m: %B%c/%b\
 $(git_prompt_info) \
 $FG[068]%(!.#.»)%{$reset_color%} "
 }
@@ -31,4 +36,3 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="$FG[072])%{$reset_color%}"
 # *** reload primary prompt each time
 typeset -a precmd_functions
 precmd_functions+=(set_primary_prompt)
-
