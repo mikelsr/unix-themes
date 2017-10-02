@@ -51,6 +51,7 @@ hi SpellBad        term=NONE    cterm=NONE              ctermfg=white   ctermbg=
 hi SpellCap        term=NONE    cterm=NONE              ctermfg=white   ctermbg=251
 hi SpellLocal      term=NONE    cterm=NONE              ctermfg=white   ctermbg=NONE
 hi SpellRare       term=NONE    cterm=NONE              ctermfg=white   ctermbg=105
+hi Statement       term=NONE    cterm=NONE              ctermfg=121     ctermbg=NONE
 hi StatusLine      term=NONE    cterm=bold              ctermfg=black   ctermbg=white
 hi StatusLineNC    term=NONE    cterm=NONE              ctermfg=black   ctermbg=white
 hi TabLine         term=NONE    cterm=underline         ctermfg=white   ctermbg=241
