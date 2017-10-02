@@ -15,6 +15,7 @@ let g:colors_name="zireael"
 hi ColorColumn     term=NONE    cterm=NONE              ctermfg=white   ctermbg=red
 hi Comment         term=NONE    cterm=NONE              ctermfg=244     ctermbg=NONE
 hi Conceal         term=NONE    cterm=NONE              ctermfg=white   ctermbg=NONE
+hi Conditional     term=NONE    cterm=NONE              ctermfg=241     ctermbg=NONE
 hi Constant        term=NONE    cterm=NONE              ctermfg=61      ctermbg=NONE
 hi Cursor          term=NONE    cterm=NONE              ctermfg=white   ctermbg=NONE
 hi CursorColumn    term=NONE    cterm=NONE              ctermfg=white   ctermbg=241
@@ -31,6 +32,7 @@ hi Folded          term=NONE    cterm=NONE              ctermfg=250     ctermbg=
 hi FoldedColumn    term=NONE    cterm=NONE              ctermfg=250     ctermbg=241
 hi Ignore          term=NONE    cterm=NONE              ctermfg=235     ctermbg=NONE
 hi IncSearch       term=NONE    cterm=NONE              ctermfg=black   ctermbg=white
+hi Keyword         term=NONE    cterm=NONE              ctermfg=121     ctermbg=NONE
 hi LineNr          term=NONE    cterm=NONE              ctermfg=241     ctermbg=NONE
 hi MatchParen      term=NONE    cterm=NONE              ctermfg=white   ctermbg=116
 hi ModeMsg         term=NONE    cterm=bold              ctermfg=white   ctermbg=NONE
@@ -51,7 +53,7 @@ hi SpellBad        term=NONE    cterm=NONE              ctermfg=white   ctermbg=
 hi SpellCap        term=NONE    cterm=NONE              ctermfg=white   ctermbg=251
 hi SpellLocal      term=NONE    cterm=NONE              ctermfg=white   ctermbg=NONE
 hi SpellRare       term=NONE    cterm=NONE              ctermfg=white   ctermbg=105
-hi Statement       term=NONE    cterm=NONE              ctermfg=121     ctermbg=NONE
+hi Statement       term=NONE    cterm=NONE              ctermfg=241     ctermbg=NONE
 hi StatusLine      term=NONE    cterm=bold              ctermfg=black   ctermbg=white
 hi StatusLineNC    term=NONE    cterm=NONE              ctermfg=black   ctermbg=white
 hi TabLine         term=NONE    cterm=underline         ctermfg=white   ctermbg=241
@@ -68,6 +70,8 @@ hi WarningMsg      term=NONE    cterm=NONE              ctermfg=7       ctermbg=
 hi WildMenu        term=NONE    cterm=NONE              ctermfg=24      ctermbg=245
 
 " Bindings
+hi link Conditional    Label
+hi link Conditional    Operator
 hi link Constant       Boolean
 hi link Constant       Character
 hi link Constant       Flat
@@ -84,9 +88,5 @@ hi link Special        Special
 hi link Special        SpecialChar
 hi link Special        SpecialComment
 hi link Special        Tag
-hi link Statement      Conditional
 hi link Statement      Exception
-hi link Statement      Keyword
-hi link Statement      Label
-hi link Statement      Operator
 hi link Statement      Repeat
