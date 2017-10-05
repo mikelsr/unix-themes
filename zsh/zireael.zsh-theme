@@ -2,6 +2,10 @@
 # vi: set ft=zsh :
 
 # Custom version of af-magic
+# I added:
+#       venv support
+#       dynamic top-bar size
+# ---
 # af-magic repo: https://github.com/andyfleming/oh-my-zsh
 # af-magic direct link: https://github.com/andyfleming/oh-my-zsh/blob/master/themes/af-magic.zsh-theme
 

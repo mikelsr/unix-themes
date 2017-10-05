@@ -1,7 +1,4 @@
-" Attempt to emulate a colorscheme found once when
-" installing the af-magic theme for oh-my-zsh
-
-" vim: set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+" Intended to be used with a dark background
 
 set background=dark
 hi clear
@@ -81,13 +78,3 @@ hi VisualNOS       term=none    cterm=bold,underline    ctermfg=white   ctermbg=
 hi WarningMsg      term=NONE    cterm=NONE              ctermfg=7       ctermbg=248
 hi WildMenu        term=NONE    cterm=NONE              ctermfg=24      ctermbg=245
 
-" Bindings
-" hi link Conditional    Operator
-" hi link Special        Debug
-" hi link Special        Delimiter
-" hi link Special        Special
-" hi link Special        SpecialChar
-" hi link Special        SpecialComment
-" hi link Special        Tag
-" hi link Statement      Exception
-" hi link Statement      Repeat
