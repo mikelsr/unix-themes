@@ -1,0 +1,24 @@
+# TODO: change 61 by a more `blue` color
+set color_cmdline_bg=default
+set color_cmdline_fg=default
+set color_error=lightred
+set color_info=121
+set color_separator=61
+set color_statusline_bg=241
+set color_statusline_fg=black
+set color_titleline_bg=61
+set color_titleline_fg=white
+set color_win_bg=default
+set color_win_cur=121
+set color_win_cur_sel_bg=61
+set color_win_cur_sel_fg=121
+set color_win_dir=61
+set color_win_fg=default
+set color_win_inactive_cur_sel_bg=241
+set color_win_inactive_cur_sel_fg=121
+set color_win_inactive_sel_bg=241
+set color_win_inactive_sel_fg=black
+set color_win_sel_bg=61
+set color_win_sel_fg=white
+set color_win_title_bg=61
+set color_win_title_fg=white
