@@ -21,10 +21,10 @@ set_primary_prompt () {
     PROMPT="$FG[237]"$( printf "-%.0s" {1..$( tput cols )} )%{$reset_color%}"
 $FG[072]"$PVENV"$FG[068]%n@%m: %B%c/%b\
 $(git_prompt_info) \
-$FG[068]%(!.#.≡)%{$reset_color%} "
+$FG[068]%(!.#. ͢)%{$reset_color%} "
 }
 
-# other special characters: ɎΞƱ»ϰ≡∴►╪⋈⇌
+# other special characters:  ҉ɎΞƱ»ϰ≡∴►╪⋈⇌ɀɅʭʃ҂ᒪᒧᐷᚖ⊷⊶╳ ͢
 
 if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="green"; fi
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
