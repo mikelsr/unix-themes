@@ -56,7 +56,7 @@ hi Question        term=NONE    cterm=NONE              ctermfg=121     ctermbg=
 hi Search          term=NONE    cterm=NONE              ctermfg=45      ctermbg=246
 hi SignColumn      term=NONE    cterm=NONE              ctermfg=251     ctermbg=241
 hi Special         term=NONE    cterm=NONE              ctermfg=241     ctermbg=NONE
-hi SpecialKey      term=NONE    cterm=NONE              ctermfg=45      ctermbg=NONE
+hi SpecialKey      term=NONE    cterm=NONE              ctermfg=235     ctermbg=NONE
 hi SpellBad        term=NONE    cterm=NONE              ctermfg=white   ctermbg=red
 hi SpellCap        term=NONE    cterm=NONE              ctermfg=white   ctermbg=251
 hi SpellLocal      term=NONE    cterm=NONE              ctermfg=white   ctermbg=NONE
